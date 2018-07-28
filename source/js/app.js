@@ -8,3 +8,10 @@ sr.reveal('h1', {
     origin: 'left',
     distance: '100px' 
 });
+
+sr.reveal('.card',{
+    delay: 0,
+    duration: 1200,
+    origin: 'top',
+    distance: '700px'
+});
