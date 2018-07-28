@@ -232,12 +232,6 @@ th {
   .sidetext {
     margin-top: 40px; } }
 
-.CTA {
-  color: #111;
-  margin-right: 30px;
-  font-size: 12px;
-  font-weight: 900; }
-
 .top {
   display: flex;
   justify-content: center;
@@ -310,6 +304,12 @@ th {
       .btn img {
         width: 20px;
         height: 20px; } }
+
+.CTA {
+  color: #111;
+  margin-right: 30px;
+  font-size: 12px;
+  font-weight: 900; }
 
 a {
   color: #0074D9;
@@ -449,3 +449,25 @@ nav {
   top: 0;
   width: 100%;
   left: 0; }
+
+.socialicons {
+  width: 22px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1000; }
+  @media screen and (max-width: 767px) {
+    .socialicons {
+      right: 10px; } }
+
+.line {
+  height: 20px;
+  width: 1px;
+  background-color: #000000;
+  margin-left: 50%; }
+
+.icons {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 22px;
+  height: 22px; }
